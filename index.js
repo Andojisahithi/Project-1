@@ -64,6 +64,11 @@ function makeSound(key) {
       var audio = new Audio('sounds/kick-bass.mp3');
       audio.play();
       break;
+      
+      case "h":
+      var audio = new Audio('sounds/kick-bass.mp3');
+      audio.play();
+      break;
 
     default:
       console.log(buttonInnerHTML);
